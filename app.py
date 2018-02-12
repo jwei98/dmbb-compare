@@ -166,6 +166,8 @@ app.layout = html.Div(children = [
                     html.H4(style={'text-align': 'center'}, children= ['Player Comparator']),
                     html.P('Try comparing Christian Laettner and Marvin Bagley III, or \
                     Grayson Allen\'s peformance over the course of his fours years (\'15, \'16, \'17, \'18)!'),
+                    html.Br(),
+                    html.Br(),
                     generatePlayerDropdown('player-selector'),
                     html.Br(),
                     html.Br(),
@@ -184,7 +186,7 @@ app.layout = html.Div(children = [
                 children = [
                     # PLAYER SELECTION
                     html.H4(style={'text-align': 'center'}, children= ['Team Comparator']),
-                    html.P('Try comparing our current team to a championship team!'),
+                    html.P('Try comparing our current team to a championship team (1990-91, 1991-92, 2000-01, 2009-10, 2014-15)!'),
                     html.P(style={'font-size': '12'}, children= '(Note: The higher the \
                     offensive rating the better, and the lower the defensive rating the better. \
                     See calculations section below for more info.)'),
